@@ -79,10 +79,10 @@ for num in avrils_lottery_numbers:
   if num %2 == 0:
     print(num)
 
-
-
-
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
+users["Erik"]["lottery_numbers"] = [7, 18, 34, 8, 11, 24]
+print(users["Erik"]["lottery_numbers"])
+
 # 8. Change Erik's hometown to Edinburgh
 # 9. Add a pet dog to Erik called "fluffy"
 # 10. Add another person to the users dictionary
