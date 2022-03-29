@@ -29,3 +29,5 @@ stops.reverse()
 print(stops)
 
 #10 Print out all the stops using a for loop
+for stop in stops:
+    print(stop)
